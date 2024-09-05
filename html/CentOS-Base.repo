@@ -1,0 +1,30 @@
+[base]
+name=CentOS-$releasever - Base - 172.20.38.100:81
+failovermethod=priority
+baseurl=http://172.20.38.100:81/base/
+enable=1
+gpgcheck=0
+
+#released updates
+[updates]
+name=CentOS-$releasever - Updates - 172.20.38.100:81
+failovermethod=priority
+baseurl=http://172.20.38.100:81/updates/
+enable=1
+gpgcheck=0
+
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras - 172.20.38.100:81
+failovermethod=priority
+baseurl=http://172.20.38.100:81/extras/
+enable=1
+gpgcheck=0
+
+#additional packages that may be useful
+[epel]
+name=CentOS-$releasever - Epel - 172.20.38.100:81
+failovermethod=priority
+baseurl=http://172.20.38.100:81/epel/
+enable=1
+gpgcheck=0

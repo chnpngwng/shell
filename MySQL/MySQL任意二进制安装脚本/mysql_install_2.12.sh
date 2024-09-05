@@ -53,7 +53,7 @@ touch /etc/my.cnf
 
 chmod 644 /etc/my.cnf
 
-MYSQL_ROOT_PASSWORD=123456
+MYSQL_ROOT_PASSWORD=12345678
 
 cat <<EOF >/etc/my.cnf
 
